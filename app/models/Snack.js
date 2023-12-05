@@ -4,4 +4,5 @@ export class Snack {
   this.price = data.price
   this.imgUrl = data.imgUrl
   }
+  
 }
