@@ -6,8 +6,8 @@ class SnackService{
     AppState.money += 100
   }
   buySnack(snackName){
-    let snackPrice = AppState.snacks.find(snack => snack.price == snackName)
-    AppState.money -= snackPrice
+    let foundSnack = AppState.snacks.find(snack => snack.name == snackName)
+    AppState.money -= foundSnack.price
   }
 }
 

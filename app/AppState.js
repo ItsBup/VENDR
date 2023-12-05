@@ -8,7 +8,7 @@ class ObservableAppState extends EventEmitter {
   examples = []
   snacks = [
     new Snack({name: 'Sample', price: 3.50, imgUrl: 'https://www.pngall.com/wp-content/uploads/8/Sample-Watermark-Transparent.png'}),
-    new Snack({name: 'Sample', price: 3.50, imgUrl: 'https://www.pngall.com/wp-content/uploads/8/Sample-Watermark-Transparent.png'}),
+    new Snack({name: 'Brokkk', price: 3.50, imgUrl: 'https://www.pngall.com/wp-content/uploads/8/Sample-Watermark-Transparent.png'}),
     new Snack({name: 'Sample', price: 3.50, imgUrl: 'https://www.pngall.com/wp-content/uploads/8/Sample-Watermark-Transparent.png'}),
     new Snack({name: 'Sample', price: 3.50, imgUrl: 'https://www.pngall.com/wp-content/uploads/8/Sample-Watermark-Transparent.png'}),
     new Snack({name: 'Sample', price: 3.50, imgUrl: 'https://www.pngall.com/wp-content/uploads/8/Sample-Watermark-Transparent.png'}),
