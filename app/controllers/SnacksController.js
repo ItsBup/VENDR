@@ -9,7 +9,7 @@ export class SnacksController {
 
   drawTotalCash(){
     let content = AppState.money
-    document.getElementById('total-cash').innerHTML = content
+    document.getElementById('total-cash').innerHTML = '$'+content
   }
 
   addMoney() {
