@@ -18,7 +18,7 @@ export class SnacksController {
     const snacks = AppState.snacks
     let content = ''
     snacks.forEach(snack => content += snack.snackCard)
-    document.getElementById('all-products').innerHTML = content 
+    document.getElementById('all-snacks').innerHTML = content 
   }
 
   addMoney() {
