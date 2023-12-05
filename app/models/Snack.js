@@ -13,7 +13,7 @@ export class Snack {
           <div class="card-body">
             <h5 class="card-title">${this.name}</h5>
             <p class="card-text">${this.price}</p>
-            <button class="btn btn-dark">BUY NOW</button>
+            <button class="btn btn-dark" onclick="app.SnacksController.buySnack('${this.name}')">BUY NOW</button>
           </div>
         </div>
       </div>    
