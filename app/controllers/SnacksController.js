@@ -1,27 +1,15 @@
 import { AppState } from "../AppState.js"
 import { examplesService } from "../services/ExampleService.js"
 
-function _logExamples() {
-  console.clear()
-
-  AppState.examples.forEach(exampleInstance => {
-    console.log(exampleInstance.message)
-  })
-
-}
-
-export class ExamplesController {
+export class SnacksController {
   constructor() {
-    console.log('The ExamplesController has loaded')
-    AppState.on('examples', _logExamples)
+    console.log('The SnacksController has loaded')
+
   }
 
-  addMessage(message) {
-    if (!message) {
-      throw new Error('You must provide a message')
-    }
-
-    examplesService.addMessage(message)
+  addMoney() {
+    console.log('big cash 🤑', money)
+    SnackService.addMoney()
   }
 
 }
