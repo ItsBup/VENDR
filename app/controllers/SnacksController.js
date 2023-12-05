@@ -1,5 +1,4 @@
 import { AppState } from "../AppState.js"
-import { examplesService } from "../services/ExampleService.js"
 import { snackService } from "../services/SnackService.js"
 
 export class SnacksController {

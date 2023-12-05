@@ -7,4 +7,4 @@ class SnackService{
   }
 }
 
-export const snackService = SnackService()
+export const snackService = new SnackService()
